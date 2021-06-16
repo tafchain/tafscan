@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:"PingFangSC-Regular,PingFang SC";
+    word-wrap: break-word;
+    background: #FFFFFF;
+}
+
+html,
+body,#app {
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+input,textarea {
+    -webkit-user-select: auto;
+    /*webkit浏览器*/
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+
+    box-shadow: none;
+}
+
+a,
+input,
+button {
+    outline: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none !important;
+}
+
+
+img {
+    max-width: 100%;
+    border: 0px;
+}
+
+select,
+input,
+img,
+select {
+    vertical-align: middle;
+}
+
+i {
+    font-style: normal;
+}
+
